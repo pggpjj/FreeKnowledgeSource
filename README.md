@@ -12,8 +12,9 @@
 ## 3. 小程序预览：
 
 <br>
-<img src="https://images.cnblogs.com/cnblogs_com/StoneLiu/1971843/o_210507090116addrs.jpg" width="240" height="240"/>
+<img src="images/logo.png" width="240" height="240"/>
 <br>
+
 
 ## 4. 部分截图
 
