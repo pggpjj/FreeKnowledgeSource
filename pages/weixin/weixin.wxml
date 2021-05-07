@@ -1,0 +1,17 @@
+<navBar background='#299DFF' back="{{true}}" home="{{true}}" bindback="handlerGobackClick" bindhome="handlerGohomeClick"
+  color='#fff' title='公众号文章' />
+<scroll-view scroll-y="true" style='height:100%;' lower-threshold="50" bindscrolltolower="lower">
+  <view class="stonecontainer">
+    <view wx:for="{{list}}" wx:key="{{cardTeam._id}}" wx:for-item="cardTeam" data-articleurl="{{cardTeam.articleurl}}"
+      data-articletitle="{{cardTeam.title}}" class="item" bindtap="bindViewTap">
+      <image class="img" src="cloud://stonecloud-base.7374-stonecloud-base-1302588318/{{cardTeam.imageurl}}"
+        mode="fill"></image>
+      <view class="number-wrapper">
+        <text class="name">{{cardTeam.title}}</text>
+        <view class="count-wrapper">
+          <text class="count">{{cardTeam.content}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>

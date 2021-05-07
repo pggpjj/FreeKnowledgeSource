@@ -1,0 +1,3 @@
+<view class="stonecontainer">
+  <towxml nodes="{{article}}"/>
+</view>
