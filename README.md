@@ -19,4 +19,4 @@
 
 ####  首页
 
-<img src="https://images.cnblogs.com/cnblogs_com/StoneLiu/1971843/o_210507085746home.jpg" width="225" height="400"  />
+<img src="https://images.cnblogs.com/cnblogs_com/StoneLiu/1971843/o_210507085746home.jpg" width="225" height="400"/>
